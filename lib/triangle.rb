@@ -10,10 +10,10 @@ class Triangle
 
   def kind
     valid?
-      if 
+      if
         side_a == side_b && side_b == side_c && side_a == side_c
         :equilateral
-      elsif 
+      elsif
         side_a == side_b || side_b == side_c || side_a == side_c
         :isosceles
       else
@@ -34,7 +34,7 @@ class TriangleError < StandardError
   def message
     puts "This is not a valid triangle."
   end
-  
+
 end
 
 end
